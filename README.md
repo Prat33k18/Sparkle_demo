@@ -6,7 +6,7 @@ Welcome to the demo version of **Sparkle**! This is an offline music website des
 
 ---
 
-## Features
+# Features
 
 🎧 **Playback:** Experience smooth audio playback of your favorite tracks.
 
@@ -24,8 +24,22 @@ Welcome to the demo version of **Sparkle**! This is an offline music website des
 
 🎲 **Random Play:** Play a random song from your collection for a surprise experience.
 
-
 ---
+
+## **Frameworks/Libraries Used:**
+  - HTML
+  - CSS
+  - JavaScript
+
+Thank you for exploring the Sparkle Demo! 🎶✨
+
+## Usage 
+
+Open the `index.html` file in your browser to see the demo in action. Use the available features to explore how the site functions. Note that some features are disabled in this demo due to the lack of backend support.
+
+To download a track, click the **Download** button next to the song you want. To replay the currently playing song, click the **Replay** button. To play a random song, use the **Random Play** button. The demo showcases the interface but does not actually perform these actions since backend functionality is missing.
+
+
 
 ## Installation
 
