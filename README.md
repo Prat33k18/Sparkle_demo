@@ -18,6 +18,9 @@ Welcome to the demo version of **Sparkle**! This is an offline music website des
 
 🔐 **Login Authentication:** Note that the demo version does not include the login authentication feature.
 
+📥 **Download:** Download your favorite tracks directly from the website.
+
+
 ---
 
 ## Installation
