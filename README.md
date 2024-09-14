@@ -20,6 +20,10 @@ Welcome to the demo version of **Sparkle**! This is an offline music website des
 
 📥 **Download:** Download your favorite tracks directly from the website.
 
+🔁 **Replay:** Replay the currently playing song with a single click.
+
+🎲 **Random Play:** Play a random song from your collection for a surprise experience.
+
 
 ---
 
