@@ -278,7 +278,7 @@ const repeat_music = () =>{
      index;
         music.src = `audio/arijit/${index}.mp3`;
         download_music.href = `audio/arijit/${index}.mp3`;       
-        poster_master_play.src ='Img/arijit/${index}.jpg`;
+        poster_master_play.src =`Img/arijit/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
