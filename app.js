@@ -194,7 +194,7 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((element)=>{
         e.target.classList.add('bi-pause-circle-fill');
         music.src = `audio/${index}.mp3`;
         download_music.href = `audio/${index}.mp3`;       
-        poster_master_play.src =`img/${index}.jpg`; 
+        poster_master_play.src =`Img/${index}.jpg`; 
 
     
         music.play();   
@@ -271,7 +271,7 @@ const next_music = () =>{
      index ++;
      music.src = `audio/${index}.mp3`;    
         download_music.href = `audio/${index}.mp3`;       
-        poster_master_play.src =`img/${index}.jpg`;    
+        poster_master_play.src =`Img/${index}.jpg`;    
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -298,7 +298,7 @@ const repeat_music = () =>{
       index;
       music.src = `audio/${index}.mp3`;
         download_music.href = `audio/${index}.mp3`;       
-        poster_master_play.src =`img/${index}.jpg`;
+        poster_master_play.src =`Img/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -325,7 +325,7 @@ const random_music = () =>{
        index = Math.floor((Math.random()* songs.length)+1);
       music.src = `audio/${index}.mp3`;
         download_music.href = `audio/${index}.mp3`;       
-        poster_master_play.src =`img/${index}.jpg`;
+        poster_master_play.src =`Img/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -419,6 +419,10 @@ vol.addEventListener('change', ()=>{
         vol_icon.classList.remove('bi-volume-mute-fill');
         vol_icon.classList.add('bi-volume-up-fill');
     }
+    else{
+       vol_icon.classList.remove('bi-volume-mute-fill', 'bi-volume-up-fill');
+    vol_icon.classList.add('bi-volume-down-fill');
+    }
 
     let vol_a = vol.value;
     vol_bar.style.width = `${vol_a}%`;
@@ -438,7 +442,7 @@ back.addEventListener('click', ()=>{
     }
     music.src = `audio/${index}.mp3`;
        download_music.href = `audio/${index}.mp3`;
-    poster_master_play.src =`img/${index}.jpg`;
+    poster_master_play.src =`Img/${index}.jpg`;
     music.play();
     let song_title = songs.filter((ele)=>{
         return ele.id == index;
@@ -465,7 +469,7 @@ back.addEventListener('click', ()=>{
         }
     music.src = `audio/${index}.mp3`;
       download_music.href = `audio/${index}.mp3`;
-    poster_master_play.src =`img/${index}.jpg`;
+    poster_master_play.src =`Img/${index}.jpg`;
     music.play();
     let song_title = songs.filter((ele)=>{
         return ele.id == index;
