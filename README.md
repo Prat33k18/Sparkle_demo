@@ -10,7 +10,7 @@ Welcome to the demo version of **Sparkle**! This is an offline music website des
 
 🎧 **Playback:** Experience smooth audio playback of your favorite tracks.
 
-🌟 **Favorite Artist Selection:** Mark and access your favorite artists with ease.
+🌟 **Favorite Artist Selection:** Mark and access your favorite artists with ease(You can only two Arijit and SPB you can add more artist by Modifying).
 
 🔍 **Search:** Find songs and artists quickly with our efficient search feature.
 
