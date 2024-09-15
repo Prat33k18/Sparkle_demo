@@ -1,7 +1,6 @@
 const music = new Audio('audio/vande.mp3');
 
-// create Array 
-//All Array object change
+
 const songs = [
     {
         id:'1',
@@ -182,7 +181,7 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((element)=>{
         
         download_music.href = `audio/arijit/${index}.mp3`;       
 
-        poster_master_play.src =`img/arijit/${index}.jpg`;
+        poster_master_play.src =`Img/arijit/${index}.jpg`;
         music.play();
         let song_title = songs.filter((ele)=>{
             return ele.id == index;
@@ -255,7 +254,7 @@ const next_music = () =>{
      index ++;
      music.src = `audio/arijit/${index}.mp3`;
         download_music.href = `audio/arijit/${index}.mp3`;       
-        poster_master_play.src =`img/arijit/${index}.jpg`;
+        poster_master_play.src =`Img/arijit/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -279,7 +278,7 @@ const repeat_music = () =>{
      index;
         music.src = `audio/arijit/${index}.mp3`;
         download_music.href = `audio/arijit/${index}.mp3`;       
-        poster_master_play.src =`img/arijit/${index}.jpg`;
+        poster_master_play.src ='Img/arijit/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -309,7 +308,7 @@ const random_music = () =>{
       index = Math.floor((Math.random()* songs.length)+1);
       music.src = `audio/arijit/${index}.mp3`;
         download_music.href = `audio/arijit/${index}.mp3`;       
-        poster_master_play.src =`img/arijit/${index}.jpg`;
+        poster_master_play.src =`Img/arijit/${index}.jpg`;
         music.play();
         
         let song_title = songs.filter((ele) => ele.id == index);
@@ -480,7 +479,7 @@ next.addEventListener('click', ()=>{
         index = 1;
         }
     music.src = `audio/arijit/${index}.mp3`;
-    poster_master_play.src =`img/arijit/${index}.jpg`;
+    poster_master_play.src =`Img/arijit/${index}.jpg`;
     music.play();
     let song_title = songs.filter((ele)=>{
         return ele.id == index;
