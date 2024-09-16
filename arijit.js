@@ -387,7 +387,7 @@ music.addEventListener('ended', ()=>{
         
         download_music.href = `audio/arijit/${index}.mp3`;       
 
-        poster_master_play.src =`img/arijit/${index}.jpg`;
+        poster_master_play.src =`Img/arijit/${index}.jpg`;
         music.play();
         let song_title = songs.filter((ele)=>{
             return ele.id == index;
